@@ -1,9 +1,7 @@
 <StackLayout>
-	<TextField
-		class="form-control"
-		hint="Challenge title"
-		[(ngModel)]="challengeDescription"
-	></TextField>
-	<Button class="btn" (tap)="onSetChallenge()" text="Set Challenge"></Button>
-	<Label class="title" [text]="currentChallenge"></Label>
+	<Label
+		class="title"
+		[text]="currentChallenge"
+		horizontalAligment="center"
+	></Label>
 </StackLayout>
