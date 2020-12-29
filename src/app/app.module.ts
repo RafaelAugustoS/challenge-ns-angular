@@ -6,11 +6,12 @@ import { CurrentChallengeComponent } from './challenges/current-challenge/curren
 import { StackComponent } from './layouts/stack/stack.component'
 import { FlexboxComponent } from './layouts/flexbox/flexbox.component'
 import { GridComponent } from './layouts/grid/grid.component'
+import { AbsoluteComponent } from './layouts/absolute/absolute.component'
 
 @NgModule({
 	bootstrap: [AppComponent],
 	imports: [NativeScriptModule, NativeScriptFormsModule],
-	declarations: [AppComponent, CurrentChallengeComponent, StackComponent, FlexboxComponent, GridComponent],
+	declarations: [AppComponent, CurrentChallengeComponent, StackComponent, FlexboxComponent, GridComponent, AbsoluteComponent],
 	providers: [],
 	schemas: [NO_ERRORS_SCHEMA],
 })
